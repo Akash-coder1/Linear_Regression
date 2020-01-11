@@ -1,0 +1,4 @@
+from sklearn.linear_model import LinearRegression
+
+regress = LinearRegression()
+regress.fit(x_train, y_train)
