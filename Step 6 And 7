@@ -1,0 +1,13 @@
+plt.scatter(x_train,y_train,color = 'red')
+plt.plot(x_train, regress.predict(x_train))
+plt.xlabel("Experiance")
+plt.ylabel("Salary")
+plt.title('TRAIN SET')
+plt.show()
+
+plt.scatter(x_test,y_test,color = 'red')
+plt.plot(x_train, regress.predict(x_train))
+plt.xlabel("Experiance_test")
+plt.ylabel("Salary_test")
+plt.title('TEST SET')
+plt.show()
